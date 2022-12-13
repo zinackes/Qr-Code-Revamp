@@ -10,23 +10,37 @@ body{
 
 .main{
     background-color: hsl(0, 0%, 100%);
-    padding: 15px;
+    padding: 17px;
     border-radius: 20px;
-    width: 250px;
+    width: 300px;
     text-align: center;
+    animation: .5s SlideFromLeft;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.main:hover, .main:focus{
+    transform: scale(1.05);
 }
 
 img{
-    width: 250px;
+    width: 300px;
     border-radius: 12px;
+    animation: 1s SlideFromLeft;
 }
 
-h3{
+h2{
     font-weight: 900;
-    font-size: 1.3em;
     color: hsl(218, 44%, 22%);
+    animation: 1.5s SlideFromLeft;
 }
 
 p{
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation: 2s SlideFromLeft;
 }
+
+
