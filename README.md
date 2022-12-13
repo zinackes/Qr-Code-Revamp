@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Qrcode](https://zinackes.github.io/qrcode/)
+- Live Site URL: [Qrcode Revamp](https://zinackes.github.io/Qr-Code-Revamp/)
 
 ## My process
 
