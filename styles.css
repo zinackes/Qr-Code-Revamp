@@ -1,11 +1,37 @@
 body{
-    background-color: hsl(212, 45%, 89%);
+    background: linear-gradient(180deg, rgba(237,230,238,1) 0%, rgba(203,230,255,1) 100%);
     font-family: 'Outfit', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+}
+
+:root{
+    --card-x: var(--card-light);
+    --h2-x: var(--h2-light);
+    --p-x: var(--p-light);
+    --btn-bg-x: var(--btn-bg-light);
+
+    --card-light: white;
+    --p-light: hsl(220, 15%, 55%);
+    --h2-light: hsl(218, 44%, 22%);
+    --btn-bg-light: rgb(228, 216, 232);
+
+    --card-dark: rgb(49 41 68);
+    --p-dark: rgb(228, 216, 232);
+    --h2-dark: rgb(255, 249, 255);
+    --btn-bg-dark: linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%);
+}
+
+.dark-theme{
+    --card-x: var(--card-dark);
+    --h2-x: var(--h2-dark);
+    --p-x: var(--p-dark);
+    --btn-bg-x: var(--btn-bg-dark);
+    background: linear-gradient(180deg, rgba(32,34,61,1) 0%, rgba(21,23,59,1) 100%);
+    transition: .5s ease-in-out;
 }
 
 .main{
@@ -15,12 +41,12 @@ body{
     width: 300px;
     text-align: center;
     animation: .5s SlideFromLeft;
+    background-color: var(--card-x);
     transition: .5s ease-in-out;
-    cursor: pointer;
 }
 
 .main:hover, .main:focus{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 img{
@@ -31,16 +57,34 @@ img{
 
 h2{
     font-weight: 900;
-    color: hsl(218, 44%, 22%);
     animation: 1.5s SlideFromLeft;
+    color: var(--h2-x);
 }
 
 p{
-    color: hsl(220, 15%, 55%);
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
     animation: 2s SlideFromLeft;
+    color: var(--p-x);
 }
 
 
+button{
+    border-radius: 8px;
+    padding: 11px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    background: var(--btn-bg-x);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    color: hsl(230, 17%, 14%);
+    font-size: 15px;
+    font-weight: 700;
+    animation: 2.5s SlideFromLeft;
+}
+
+button:hover{
+    opacity: 0.6;
+}
