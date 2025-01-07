@@ -1,39 +1,27 @@
-<<<<<<< HEAD
-# Frontend Mentor - QR code Revamp component solution
+# 🔳 QR Code avec Theme Switcher 🎨  
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Un **mini-projet web interactif** qui affiche un QR Code accompagné d'une description, avec la possibilité de changer le thème des couleurs grâce à un bouton. Développé avec **HTML**, **CSS**, et **JavaScript**, ce projet combine minimalisme et interactivité.  
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+## ✨ Fonctionnalités  
+- 🔗 **QR Code statique** : Un QR Code généré pour une URL ou un texte défini.  
+- 📝 **Description claire** : Texte explicatif affiché sous le QR Code pour indiquer son contenu ou son utilisation.  
+- 🌗 **Theme Switcher** : Basculer entre les thèmes clair et sombre en un clic, avec une transition fluide.  
+- 🎨 **Design moderne** : Mise en page élégante avec une animation subtile lors du changement de thème.  
+- 📱 **Responsive** : Affichage optimisé pour desktop, tablette et mobile.  
 
+---
 
-## Overview
+## 📂 Technologies utilisées  
+- **HTML** : Structure du composant.  
+- **CSS** : Styles, transitions et thèmes.  
+- **JavaScript** : Gestion du bouton de changement de thème.  
 
+---
 
-### Links
-
-- Live Site URL: [Qrcode Revamp](https://zinackes.github.io/Qr-Code-Revamp/)
-
-## My process
-
-### Built with
-
-- HTML5
-- Custom CSS
-- Javascript
-
-
-## Author
-
-- Website - [zinacke](https://zinackes.github.io/qrcode/)
-- Frontend Mentor - [@zinacke](https://www.frontendmentor.io/profile/zinackes)
-- Twitter - [@zinacke_](https://www.twitter.com/zinacke_)
-
-=======
-
->>>>>>> cd53b61788e52804371ad16647223e150c7a1f3a
+## 🚀 Comment l'utiliser  
+1. Clone ce dépôt :  
+   ```bash
+   git clone https://github.com/zinackes/Qr-Code-Revamp.git
+   cd qrcode
